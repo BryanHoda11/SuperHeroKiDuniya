@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Ruge+Boogie&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1e293b;
+}
+
+.logo-font {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: xx-large;
+    font-style: normal;
+}
+
+.movies-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.movies::-webkit-scrollbar {
+    width: 3px;
+}
+
+.movies-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.movies::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.movies-container:-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.movies::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.movies::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
