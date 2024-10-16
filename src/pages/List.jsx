@@ -17,7 +17,7 @@ const List = () => {
       {list.length > 0 ? (
         <div>
           <h1 className='px-8 text-center sm:text-start text-slate-500 text-3xl font-bold opacity-60 my-7'>Total : {Moviescount}</h1>
-          <ul className="flex flex-col items-cent justify-center my-10">
+          <ul className="flex flex-col items-cent justify-center my-10 gap-7">
             {list.map((movie) => (
               <li key={movie.imdbID} className="movie flex flex-col sm:flex-row items-center justify-between w-[95%] sm:w-[85%] bg-slate-800 rounded-lg px-7 py-7 mx-auto relative">
                 <img className="h-auto w-[200px]" src={movie.Poster} alt={`${movie.Title} Poster`} />
