@@ -1,7 +1,7 @@
 # About SuperHeroKiDuniya
 
 ```
-1. I fetched Movies, Gmaes and Series data about Superheroes from OMDb API and displayed it in my web-app.
+1. I fetched Movies, Games and Series data about Superheroes from OMDb API and displayed it in my web-app.
 ```
 
 ```
@@ -9,7 +9,7 @@
 ```
 
 ```
-3. I added the functionality to add your favourite movie / game to 'My List', so to do that I made use of Context API for state management and conditionally rendered the fvaourite movies that the user will add.
+3. I added the functionality to add your favourite movie / game to 'My List', so to do that I made use of Context API for state management and conditionally rendered the favourite movies that the user will add.
 ```
 
 ```
