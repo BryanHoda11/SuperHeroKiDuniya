@@ -3,16 +3,16 @@ import { myListContext } from '../context/context';
 import { TypeAnimation } from 'react-type-animation';
 import { FaCaretUp } from "react-icons/fa6";
 import { FaRegHeart } from "react-icons/fa";
-import NowayHome from '../images/nowayhome.png'
-import Spiderman from '../images/spiderman.png'
-import Spiderman2 from '../images/spiderman2.png'
-import Spiderman3 from '../images/spiderman3.png'
-import IntotheVerse from '../images/intotheverse.png'
-import AcrosstheVerse from '../images/acrosstheverse.png'
-import TASM from '../images/tasm.png'
-import TASM2 from '../images/tasm2.png'
-import Homecoming from '../images/homecoming.png'
-import FarFromHome from '../images/Farfromhome.png'
+import NowayHome from '/images/nowayhome.png'
+import Spiderman from '/images/spiderman.png'
+import Spiderman2 from '/images/spiderman2.png'
+import Spiderman3 from '/images/spiderman3.png'
+import IntotheVerse from '/images/intotheverse.png'
+import AcrosstheVerse from '/images/acrosstheverse.png'
+import TASM from '/images/tasm.png'
+import TASM2 from '/images/tasm2.png'
+import Homecoming from '/images/homecoming.png'
+import FarFromHome from '/images/Farfromhome.png'
 
 const Popular = () => {
   const [batman, setbatman] = useState([]);
